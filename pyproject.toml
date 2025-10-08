@@ -1,0 +1,19 @@
+[project]
+name = "personal-workspace-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "httpx",
+  "google-genai",
+  "python-dotenv",
+  "requests",
+  "pydantic",
+  "chromadb",
+  "pytest",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
