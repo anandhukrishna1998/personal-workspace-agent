@@ -12,6 +12,7 @@ dependencies = [
   "pydantic",
   "chromadb",
   "pytest",
+  "mcp[cli]>=1.18.0",
 ]
 
 [build-system]
