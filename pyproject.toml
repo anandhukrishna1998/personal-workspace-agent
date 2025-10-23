@@ -13,6 +13,8 @@ dependencies = [
   "chromadb",
   "pytest",
   "mcp[cli]>=1.18.0",
+  "beautifulsoup4",
+  "psutil>=7.1.1",
 ]
 
 [build-system]
